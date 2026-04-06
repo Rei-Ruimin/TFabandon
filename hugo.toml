@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://tfabandon-blog.netlify.app/'
 languageCode = 'zh-cn'
 title = "TFabandon's Blog"
 theme = "PaperMod"
