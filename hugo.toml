@@ -1,0 +1,43 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-cn'
+title = "TFabandon's Blog"
+theme = "PaperMod"
+
+[params]
+    ShowShareButtons = false
+    ShowReadingTime = true
+    ShowPostNavLinks = true
+    ShowBreadCrumbs = true
+    ShowCodeCopyButtons = true
+    disableScrollToTop = false
+    TocOpen = false
+    ShowWordCount = true
+    homeInfoParams = { title = "Hi there 👋", content = "It's TFabandon's blog" }
+
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 5
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archive"
+    url = "/archives/"
+    weight = 10
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 20
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+
+[taxonomies]
+  tag = "tags"
+
+

@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: main # or master, depending on your default branch
+
+media_folder: "static/images" # Where media files will be stored
+public_folder: "/images" # The src attribute for uploaded media
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "content/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - { label: "Body", name: "body", widget: "markdown" }
