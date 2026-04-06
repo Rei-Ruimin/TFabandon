@@ -17,5 +17,3 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "Draft", name: "draft", widget: "boolean", default: true }
       - { label: "Body", name: "body", widget: "markdown" }
-
-locale: 'zh'
