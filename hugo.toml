@@ -12,7 +12,7 @@ theme = "PaperMod"
     disableScrollToTop = false
     TocOpen = false
     ShowWordCount = true
-    homeInfoParams = { title = "Hi there 👋", content = "It's TFabandon's blog" }
+    homeInfoParams = { title = "TFabandon's Blog", content = "👋 Welcome to home page of TFabandon." }
 
 
 [menu]
