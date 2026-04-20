@@ -1,6 +1,6 @@
 baseURL = 'https://blog.tfabandon.top/'
 languageCode = 'zh-cn'
-title = "TFabandon's Blog"
+title = "甜匪"
 theme = "PaperMod"
 
 [params]
