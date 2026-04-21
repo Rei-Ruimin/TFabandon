@@ -5,13 +5,13 @@ theme = "PaperMod"
 
 [params]
     ShowShareButtons = false
-    ShowReadingTime = true
+    ShowReadingTime = false
     ShowPostNavLinks = true
     ShowBreadCrumbs = true
     ShowCodeCopyButtons = true
     disableScrollToTop = false
     TocOpen = false
-    ShowWordCount = true
+    ShowWordCount = false
     homeInfoParams = { title = "TFabandon's Blog", content = "👋 Welcome to home page of TFabandon." }
 
 
